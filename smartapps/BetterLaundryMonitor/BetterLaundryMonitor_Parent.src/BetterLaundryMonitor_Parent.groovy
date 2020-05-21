@@ -99,7 +99,7 @@ def display() {
 // Check Version   ***** with great thanks and acknowledgment to Cobra (CobraVmax) for his original code ****
 def updateCheck()
 {    
-	def paramsUD = [uri: "https://hubitatcommunity.github.io/Hubitat-BetterLaundryMonitor/version2.json"]
+	def paramsUD = [uri: "https://tofudog88.github.io/SmartThingsPublic/"]
 	
  	asynchttpGet("updateCheckHandler", paramsUD) 
 }
